@@ -1,4 +1,7 @@
 package com.daniel.forohub.domain.topico;
 
-public class DatosActualizarTopico {
+public record DatosActualizarTopico(
+        String titulo,
+        String mensaje
+) {
 }

@@ -1,4 +1,8 @@
 package com.daniel.forohub.domain.topico;
 
-public class StatusTopico {
+public enum StatusTopico {
+
+    ABIERTO,
+    CERRADO
+
 }

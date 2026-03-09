@@ -1,4 +1,6 @@
 package com.daniel.forohub.domain.respuesta;
 
-public class RespuestaRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RespuestaRepository extends JpaRepository<Respuesta, Long> {
 }

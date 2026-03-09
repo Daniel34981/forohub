@@ -1,4 +1,6 @@
 package com.daniel.forohub.domain.curso;
 
-public class CursoRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CursoRepository extends JpaRepository<Curso, Long> {
 }
