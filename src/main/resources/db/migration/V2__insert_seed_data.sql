@@ -3,7 +3,7 @@ INSERT INTO perfiles (nombre) VALUES
                                   ('ROLE_USER');
 
 INSERT INTO usuarios (nombre, correo_electronico, contrasena) VALUES
-    ('Administrador', 'admin@forohub.com', '123456');
+    ('Administrador', 'admin@forohub.com', '$2a$10$Lr2/V3gSCGftnA/w9vM9qekf/gulLP/4q1JF25KXZvyqBuMUtX7Qu');
 
 INSERT INTO usuarios_perfiles (usuario_id, perfil_id) VALUES
     (1, 1);
